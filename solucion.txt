@@ -1,0 +1,46 @@
+main.c
+#include "header.h"
+
+
+int main(void) {
+
+ sueldopepe();
+
+mostrarsueldopepe();
+
+}
+
+funciones.c
+#include "header.h"
+
+int sueldopepe(){
+  
+
+
+}
+
+
+header.h
+#ifndef HEADER_H_INCLUDED
+#define HEADER_H_INCLUDED
+
+#include <stdio.h>
+#include <stdlib.h>
+
+ int gerente,neto1,neto2,BR_F,BR_N,BR_N,BP_N,BP_A,BP_D;
+  float BR_P;
+
+  gerente=1;
+  neto1=15000;
+  neto2=20000;
+  BR_F=800;
+  BR_N=0;
+  BP_N=2000;
+  BP_A=100;
+  BP_D=
+
+sueldopepe( int );
+mostrarsueldopepe(sueldopepe);
+
+
+#endif // HEADER_H_INCLUDED
